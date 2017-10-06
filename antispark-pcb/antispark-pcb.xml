@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/scott/projects/antispark-switch/antispark-pcb/antispark-pcb.sch</source>
+    <date>Fri 06 Oct 2017 12:48:57 ACDT</date>
+    <tool>Eeschema no-vcs-found</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Anti-Spark Fet Switch Board</title>
+        <company>Scott Rapson</company>
+        <rev>1.0</rev>
+        <date>2017-09-28</date>
+        <source>antispark-pcb.sch</source>
+        <comment number="1" value="Rated to 60V DC, approx 200A continuous"/>
+        <comment number="2" value="Requires heatsinks installed for free-air convection"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Q1">
+      <value>IRF7749L2</value>
+      <footprint>Applidyne_Special:directFET_L8</footprint>
+      <datasheet>http://www.mouser.com/ds/2/196/auirf7749l2-935052.pdf</datasheet>
+      <fields>
+        <field name="manf">Infineon - International Rectifier</field>
+        <field name="manf#">AUIRF7749L2TR</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/Infineon-IR/AUIRF7749L2TR/?qs=sGAEpiMZZMshyDBzk1%2fWiwvVDpfNFk6n0k6bqFwMhNALD6T4gGy2aA%3d%3d</field>
+        <field name="Supplier Part No">942-AUIRF7749L2TR</field>
+        <field name="Supplier Price">6.53</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_transistor" part="IRF7749L2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CC6089</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1UF_X7R_3216M</value>
+      <footprint>Applidyne_Capacitor:CAPC3216X135N</footprint>
+      <datasheet>http://docs-asia.electrocomponents.com/webdocs/1532/0900766b81532cd0.pdf</datasheet>
+      <fields>
+        <field name="manf">TDK</field>
+        <field name="manf#">C3216X7R2A105K160AA</field>
+        <field name="Supplier">RS Online</field>
+        <field name="Supplier Part No">740-7590</field>
+        <field name="Supplier URL">http://au.element14.com/murata/grm31cr71e106ka12l/cap-mlcc-x7r-10uf-25v-1206/dp/1735546</field>
+        <field name="Supplier Price">0.308</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_capacitor" part="1UF_X7R_3216M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CC657D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1M_1608M</value>
+      <footprint>Applidyne_Resistor:RESC1608X50N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1720486.pdf</datasheet>
+      <fields>
+        <field name="manf">VISHAY DRALORIC</field>
+        <field name="manf#">CRCW06031M00FKEA</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1469746</field>
+        <field name="Supplier URL">http://au.element14.com/vishay-draloric/crcw06031m00fkea/product-range-aec-q200-crcw-series/dp/1469746</field>
+        <field name="Supplier Price">0.02</field>
+        <field name="Supplier Price Break">100</field>
+      </fields>
+      <libsource lib="appli_resistor" part="1M_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CC676F</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1K00_1608M</value>
+      <footprint>Applidyne_Resistor:RESC1608X50N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1723233.pdf</datasheet>
+      <fields>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">MCHP03W8F1001T5E</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1576283</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/mchp03w8f1001t5e/resistor-thick-film-1k-0-125w/dp/1576283</field>
+        <field name="Supplier Price">0.011</field>
+        <field name="Supplier Price Break">50+</field>
+      </fields>
+      <libsource lib="appli_resistor" part="1K00_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CC6A36</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>IRF7749L2</value>
+      <footprint>Applidyne_Special:directFET_L8</footprint>
+      <datasheet>http://www.mouser.com/ds/2/196/auirf7749l2-935052.pdf</datasheet>
+      <fields>
+        <field name="manf">Infineon - International Rectifier</field>
+        <field name="manf#">AUIRF7749L2TR</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/Infineon-IR/AUIRF7749L2TR/?qs=sGAEpiMZZMshyDBzk1%2fWiwvVDpfNFk6n0k6bqFwMhNALD6T4gGy2aA%3d%3d</field>
+        <field name="Supplier Part No">942-AUIRF7749L2TR</field>
+        <field name="Supplier Price">6.53</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_transistor" part="IRF7749L2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CC7058</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>IRF7749L2</value>
+      <footprint>Applidyne_Special:directFET_L8</footprint>
+      <datasheet>http://www.mouser.com/ds/2/196/auirf7749l2-935052.pdf</datasheet>
+      <fields>
+        <field name="manf">Infineon - International Rectifier</field>
+        <field name="manf#">AUIRF7749L2TR</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/Infineon-IR/AUIRF7749L2TR/?qs=sGAEpiMZZMshyDBzk1%2fWiwvVDpfNFk6n0k6bqFwMhNALD6T4gGy2aA%3d%3d</field>
+        <field name="Supplier Part No">942-AUIRF7749L2TR</field>
+        <field name="Supplier Price">6.53</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_transistor" part="IRF7749L2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CC70C4</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>IRF7749L2</value>
+      <footprint>Applidyne_Special:directFET_L8</footprint>
+      <datasheet>http://www.mouser.com/ds/2/196/auirf7749l2-935052.pdf</datasheet>
+      <fields>
+        <field name="manf">Infineon - International Rectifier</field>
+        <field name="manf#">AUIRF7749L2TR</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/Infineon-IR/AUIRF7749L2TR/?qs=sGAEpiMZZMshyDBzk1%2fWiwvVDpfNFk6n0k6bqFwMhNALD6T4gGy2aA%3d%3d</field>
+        <field name="Supplier Part No">942-AUIRF7749L2TR</field>
+        <field name="Supplier Price">6.53</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_transistor" part="IRF7749L2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CC70E3</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>IRF7749L2</value>
+      <footprint>Applidyne_Special:directFET_L8</footprint>
+      <datasheet>http://www.mouser.com/ds/2/196/auirf7749l2-935052.pdf</datasheet>
+      <fields>
+        <field name="manf">Infineon - International Rectifier</field>
+        <field name="manf#">AUIRF7749L2TR</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/Infineon-IR/AUIRF7749L2TR/?qs=sGAEpiMZZMshyDBzk1%2fWiwvVDpfNFk6n0k6bqFwMhNALD6T4gGy2aA%3d%3d</field>
+        <field name="Supplier Part No">942-AUIRF7749L2TR</field>
+        <field name="Supplier Price">6.53</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_transistor" part="IRF7749L2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CC71F4</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>IRF7749L2</value>
+      <footprint>Applidyne_Special:directFET_L8</footprint>
+      <datasheet>http://www.mouser.com/ds/2/196/auirf7749l2-935052.pdf</datasheet>
+      <fields>
+        <field name="manf">Infineon - International Rectifier</field>
+        <field name="manf#">AUIRF7749L2TR</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/Infineon-IR/AUIRF7749L2TR/?qs=sGAEpiMZZMshyDBzk1%2fWiwvVDpfNFk6n0k6bqFwMhNALD6T4gGy2aA%3d%3d</field>
+        <field name="Supplier Part No">942-AUIRF7749L2TR</field>
+        <field name="Supplier Price">6.53</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_transistor" part="IRF7749L2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CC7213</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>JST_GH_6_RA</value>
+      <footprint>Applidyne_Connector_JST:SM06B-GHS-TB</footprint>
+      <datasheet>http://docs-asia.electrocomponents.com/webdocs/10ce/0900766b810cef18.pdf</datasheet>
+      <fields>
+        <field name="manf">JST</field>
+        <field name="manf#">SM06B-GHS-TB(LF)(SN)</field>
+        <field name="Supplier">RS Online</field>
+        <field name="Supplier Part No">752-1800</field>
+        <field name="Supplier URL">http://au.rs-online.com/web/p/pcb-headers/7521800/</field>
+        <field name="Supplier Price">0.802</field>
+        <field name="Supplier Price Break">5</field>
+      </fields>
+      <libsource lib="appli_connector_jst" part="JST_GH_6_RA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CC7DB5</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1SMB5927BT3G</value>
+      <footprint>Applidyne_SOD:SODFL5336X245N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/1SMB5913BT3-D-108682.pdf</datasheet>
+      <fields>
+        <field name="manf">ON SEMI</field>
+        <field name="manf#">1SMB5927BT3G</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">863-1SMB5927BT3G</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/ON-Semiconductor/1SMB5927BT3G/?qs=sGAEpiMZZMvplms98TlKY72UPjEzp3ixgX8%2fkL8HHyk%3d</field>
+        <field name="Supplier Price">0.67</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_device" part="1SMB5927BT3G"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CCAAC6</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>PAD_SOLDER_5mm</value>
+      <footprint>Applidyne_Connector:PAD_SOLDER_5mm</footprint>
+      <fields>
+        <field name="manf">DIY</field>
+        <field name="Supplier">No part</field>
+        <field name="Supplier Price">0.0</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_connector" part="PAD_SOLDER_5mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CCBD32</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>PAD_SOLDER_5mm</value>
+      <footprint>Applidyne_Connector:PAD_SOLDER_5mm</footprint>
+      <fields>
+        <field name="manf">DIY</field>
+        <field name="Supplier">No part</field>
+        <field name="Supplier Price">0.0</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_connector" part="PAD_SOLDER_5mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CCBE64</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>PAD_SOLDER_5mm</value>
+      <footprint>Applidyne_Connector:PAD_SOLDER_5mm</footprint>
+      <fields>
+        <field name="manf">DIY</field>
+        <field name="Supplier">No part</field>
+        <field name="Supplier Price">0.0</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_connector" part="PAD_SOLDER_5mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CCC44D</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>PAD_SOLDER_5mm</value>
+      <footprint>Applidyne_Connector:PAD_SOLDER_5mm</footprint>
+      <fields>
+        <field name="manf">DIY</field>
+        <field name="Supplier">No part</field>
+        <field name="Supplier Price">0.0</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_connector" part="PAD_SOLDER_5mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CCC9CA</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="appli_resistor" part="1K00_1608M">
+      <description>RESISTOR, THICK FILM, 1K, 125mW, 1%, 0603, 1608M</description>
+      <footprints>
+        <fp>RESC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1K00_1608M</field>
+        <field name="Footprint">RESC1608*</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1723233.pdf</field>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">MCHP03W8F1001T5E</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1576283</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/mchp03w8f1001t5e/resistor-thick-film-1k-0-125w/dp/1576283</field>
+        <field name="Supplier Price">0.011</field>
+        <field name="Supplier Price Break">50+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_resistor" part="1M_1608M">
+      <description>RESISTOR, THICK FILM, 1M, 100mW, 1%, 0603, 1608M</description>
+      <docs>http://www.farnell.com/datasheets/1720486.pdf</docs>
+      <footprints>
+        <fp>RESC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1M_1608M</field>
+        <field name="Footprint">RESC1608*</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1720486.pdf</field>
+        <field name="manf">VISHAY DRALORIC</field>
+        <field name="manf#">CRCW06031M00FKEA</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1469746</field>
+        <field name="Supplier URL">http://au.element14.com/vishay-draloric/crcw06031m00fkea/product-range-aec-q200-crcw-series/dp/1469746</field>
+        <field name="Supplier Price">0.02</field>
+        <field name="Supplier Price Break">100</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_device" part="1SMB5927BT3G">
+      <description>DIODE ZENER, 12Vz, 3W, 1.5Vfwd, 31mA, 5%, SMB, DO-214AA</description>
+      <docs>http://www.mouser.com/ds/2/308/1SMB5913BT3-D-108682.pdf</docs>
+      <footprints>
+        <fp>SODFL5336*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1SMB5927BT3G</field>
+        <field name="Footprint">Applidyne_SOD:SODFL5336X245N</field>
+        <field name="Datasheet">http://www.mouser.com/ds/2/308/1SMB5913BT3-D-108682.pdf</field>
+        <field name="manf">ON SEMI</field>
+        <field name="manf#">1SMB5927BT3G</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">863-1SMB5927BT3G</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/ON-Semiconductor/1SMB5927BT3G/?qs=sGAEpiMZZMvplms98TlKY72UPjEzp3ixgX8%2fkL8HHyk%3d</field>
+        <field name="Supplier Price">0.67</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_capacitor" part="1UF_X7R_3216M">
+      <description>CAP, MLCC, X7R, 1UF, 100V, 1206, 3216M</description>
+      <docs>http://docs-asia.electrocomponents.com/webdocs/1532/0900766b81532cd0.pdf</docs>
+      <footprints>
+        <fp>CAPC3216*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1UF_X7R_3216M</field>
+        <field name="Footprint">Applidyne_Capacitor:CAPC3216X135N</field>
+        <field name="Datasheet">http://docs-asia.electrocomponents.com/webdocs/1532/0900766b81532cd0.pdf</field>
+        <field name="manf">TDK</field>
+        <field name="manf#">C3216X7R2A105K160AA</field>
+        <field name="Supplier">RS Online</field>
+        <field name="Supplier Part No">740-7590</field>
+        <field name="Supplier URL">http://au.element14.com/murata/grm31cr71e106ka12l/cap-mlcc-x7r-10uf-25v-1206/dp/1735546</field>
+        <field name="Supplier Price">0.308</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_transistor" part="IRF7749L2">
+      <description>POWER MOSFET, N-CH, 60Vds, 20Vgs, 375A, 1.1mOhm, 275nC gd, 2Vgs, DirectFet-L8</description>
+      <docs>http://www.mouser.com/ds/2/196/auirf7749l2-935052.pdf</docs>
+      <footprints>
+        <fp>directFET_L8*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF7749L2</field>
+        <field name="Footprint">Applidyne_Special:directFET_L8</field>
+        <field name="Datasheet">http://www.mouser.com/ds/2/196/auirf7749l2-935052.pdf</field>
+        <field name="manf">Infineon - International Rectifier</field>
+        <field name="manf#">AUIRF7749L2TR</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/Infineon-IR/AUIRF7749L2TR/?qs=sGAEpiMZZMshyDBzk1%2fWiwvVDpfNFk6n0k6bqFwMhNALD6T4gGy2aA%3d%3d</field>
+        <field name="Supplier Part No">942-AUIRF7749L2TR</field>
+        <field name="Supplier Price">6.53</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_connector_jst" part="JST_GH_6_RA">
+      <description>JST GH Series, 1.25mm Pitch, 6 Way, Shrouded Right Angle, PCB Header, Surface Mount</description>
+      <docs>http://docs-asia.electrocomponents.com/webdocs/10ce/0900766b810cef18.pdf</docs>
+      <footprints>
+        <fp>SM06B-GHS-TB</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">JST_GH_6_RA</field>
+        <field name="Footprint">Applidyne_Connector_JST:SM06B-GHS-TB</field>
+        <field name="Datasheet">http://docs-asia.electrocomponents.com/webdocs/10ce/0900766b810cef18.pdf</field>
+        <field name="manf">JST</field>
+        <field name="manf#">SM06B-GHS-TB(LF)(SN)</field>
+        <field name="Supplier">RS Online</field>
+        <field name="Supplier Part No">752-1800</field>
+        <field name="Supplier URL">http://au.rs-online.com/web/p/pcb-headers/7521800/</field>
+        <field name="Supplier Price">0.802</field>
+        <field name="Supplier Price Break">5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_connector" part="PAD_SOLDER_5mm">
+      <footprints>
+        <fp>PAD_SOLDER_5mm</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">PAD_SOLDER_5mm</field>
+        <field name="Footprint">Applidyne_Connector:PAD_SOLDER_5mm</field>
+        <field name="manf">DIY</field>
+        <field name="Supplier">No part</field>
+        <field name="Supplier Price">0.0</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="appli_capacitor">
+      <uri>/home/scott/projects/ECAD/kicad-library/appli_capacitor.lib</uri>
+    </library>
+    <library logical="appli_connector">
+      <uri>/home/scott/projects/ECAD/kicad-library/appli_connector.lib</uri>
+    </library>
+    <library logical="appli_connector_jst">
+      <uri>/home/scott/projects/ECAD/kicad-library/appli_connector_jst.lib</uri>
+    </library>
+    <library logical="appli_device">
+      <uri>/home/scott/projects/ECAD/kicad-library/appli_device.lib</uri>
+    </library>
+    <library logical="appli_resistor">
+      <uri>/home/scott/projects/ECAD/kicad-library/appli_resistor.lib</uri>
+    </library>
+    <library logical="appli_transistor">
+      <uri>/home/scott/projects/ECAD/kicad-library/appli_transistor.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GATE">
+      <node ref="Q6" pin="G"/>
+      <node ref="Q3" pin="G"/>
+      <node ref="Q4" pin="G"/>
+      <node ref="Q5" pin="G"/>
+      <node ref="Q1" pin="G"/>
+      <node ref="R2" pin="2"/>
+      <node ref="D1" pin="C"/>
+      <node ref="Q2" pin="G"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="2" name="+BATT">
+      <node ref="P4" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="3" name="GNDPWR">
+      <node ref="Q1" pin="D"/>
+      <node ref="Q2" pin="D"/>
+      <node ref="Q3" pin="D"/>
+      <node ref="Q4" pin="D"/>
+      <node ref="Q5" pin="D"/>
+      <node ref="C1" pin="1"/>
+      <node ref="P5" pin="1"/>
+      <node ref="Q6" pin="D"/>
+    </net>
+    <net code="4" name="Net-(C1-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="5" name="SW_ON">
+      <node ref="P3" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(P3-Pad4)">
+      <node ref="P3" pin="4"/>
+    </net>
+    <net code="7" name="Net-(P3-Pad5)">
+      <node ref="P3" pin="5"/>
+    </net>
+    <net code="8" name="Net-(P3-Pad6)">
+      <node ref="P3" pin="6"/>
+    </net>
+    <net code="9" name="SW_OFF">
+      <node ref="Q3" pin="S"/>
+      <node ref="P3" pin="3"/>
+      <node ref="Q2" pin="S"/>
+      <node ref="Q4" pin="S"/>
+      <node ref="P2" pin="1"/>
+      <node ref="Q1" pin="S"/>
+      <node ref="Q6" pin="S"/>
+      <node ref="Q5" pin="S"/>
+      <node ref="D1" pin="A"/>
+    </net>
+  </nets>
+</export>

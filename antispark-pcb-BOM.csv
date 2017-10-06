@@ -1,0 +1,17 @@
+"Title:","Anti-Spark Fet Switch Board"
+"Rev:","1.0"
+"Source:","/home/scott/projects/antispark-switch/antispark-pcb/antispark-pcb.sch"
+"Date:","Fri 06 Oct 2017 12:48:57 ACDT"
+"Component Count:","15"
+
+"Ref","Qty","Value","Description","Manf","Manf#","Installed","Footprint"
+"C1","1","1UF_X7R_3216M","CAP, MLCC, X7R, 1UF, 100V, 1206, 3216M","TDK","C3216X7R2A105K160AA"," ","CAPC3216X135N"
+"D1","1","1SMB5927BT3G","DIODE ZENER, 12Vz, 3W, 1.5Vfwd, 31mA, 5%, SMB, DO-214AA","ON SEMI","1SMB5927BT3G"," ","SODFL5336X245N"
+"P1, P2, P4, P5","4","PAD_SOLDER_5mm","No description","DIY","No 'manf#' field"," ","PAD_SOLDER_5mm"
+"P3","1","JST_GH_6_RA","JST GH Series, 1.25mm Pitch, 6 Way, Shrouded Right Angle, PCB Header, Surface Mount","JST","SM06B-GHS-TB(LF)(SN)"," ","SM06B-GHS-TB"
+"Q1, Q2, Q3, Q4, Q5, Q6","6","IRF7749L2","POWER MOSFET, N-CH, 60Vds, 20Vgs, 375A, 1.1mOhm, 275nC gd, 2Vgs, DirectFet-L8","Infineon - International Rectifier","AUIRF7749L2TR"," ","directFET_L8"
+"R1","1","1M_1608M","RESISTOR, THICK FILM, 1M, 100mW, 1%, 0603, 1608M","VISHAY DRALORIC","CRCW06031M00FKEA"," ","RESC1608X50N"
+"R2","1","1K00_1608M","RESISTOR, THICK FILM, 1K, 125mW, 1%, 0603, 1608M","MULTICOMP","MCHP03W8F1001T5E"," ","RESC1608X50N"
+
+"Tool:","Eeschema no-vcs-found"
+"Script:","/home/scott/projects/ECAD/kicad-scripts/BOM/bom/BOM-GroupedByValue.py"
