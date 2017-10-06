@@ -1,0 +1,31 @@
+G04 Gerber job file with board parameters*
+%TF.FileFunction,JobInfo*%
+%TF.Part,SinglePCB*%
+G04 Single PCB fabrication instructions*
+%TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found*%
+%TF.CreationDate,2017-10-06T12:39:31+10:30*%
+%TF.ProjectId,antispark-pcb,616E7469737061726B2D7063622E6B69,1.0*%
+%MOMM*%
+G04 Overall board parameters*
+%TJ.B.Size.X,50.150*%
+%TJ.B.Size.Y,40.150*%
+%TJ.B.LayerNum,2*%
+%TJ.B.Overall.Thickness,1.600*%
+%TJ.B.Legend.Present,Both*%
+%TJ.B.SolderMask.Present,Both*%
+G04 board design rules*
+%TJ.D.PadToPad.Out,0.200*%
+%TJ.D.PadToTrack.Out,0.200*%
+%TJ.D.TrackToTrack.Out,0.200*%
+%TJ.D.MinLineWidth.Out,0.250*%
+%TJ.D.TrackToRegion.Out,0.600*%
+%TJ.D.RegionToRegion.Out,0.600*%
+G04 Layer Structure*
+%TJ.L."Copper,L1,Top",Positive,antispark-pcb-F.Cu.gbr*%
+%TJ.L."Copper,L2,Bot",Positive,antispark-pcb-B.Cu.gbr*%
+%TJ.L."Legend,Bot",Positive,antispark-pcb-B.SilkS.gbr*%
+%TJ.L."Legend,Top",Positive,antispark-pcb-F.SilkS.gbr*%
+%TJ.L."SolderMask,Bot",Negative,antispark-pcb-B.Mask.gbr*%
+%TJ.L."SolderMask,Top",Negative,antispark-pcb-F.Mask.gbr*%
+%TJ.L."Profile",Positive,antispark-pcb-Edge.Cuts.gbr*%
+M02*
